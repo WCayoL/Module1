@@ -1,125 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Modulo 2</title>
-<style>
-
-/********** Base styles **********/
-* {
-  box-sizing: border-box;
-}
-h1 {
-  font-family: 'Comic Sans MS';
-  margin-bottom: 25px;
-}
-
-p {
-  border: 3px solid black;
-  background-color: #999999;
-  width: 90%;
-  height: 250px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: 'Comic Sans MS';
-  color: black;
-  padding: 38px 15px 15px 15px;
-  overflow: hidden;
-  position: relative;
-}
-
-a{
-  font-family: 'Comic Sans MS';
-  font-weight: bold;
-  width: 120px;
-  height: 30px;
-  border: 1px solid black;
-  margin-bottom: 15px;
-  text-align: center;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-a#p1 {
-  background-color: #D59898;
-  position: absolute;
-  top: 0px;
-  left:auto;
-}
-
-
-a#p2{
-  background-color: #C14543;
-  position: absolute;
-  top: 0px;
-  left:auto;
-  color: white;
-}
-
-a#p3{
-  background-color: #E5D198;
-  position: absolute;
-  top: 0px;
-  left:auto;
-}
-
-
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-}
-
-/********** Large devices only **********/
-@media (min-width: 992px) {
-  .col-lg-4 {
-    float: left;
-    width: 33.33%;
-  }
-}
-
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6, .col-md-12 {
-    float: left;
-  }  
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
-}
-
-</style>
+  <meta charset="utf-8">
+  <title>Modulo 2</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-  <center>
-    <h1>Our Menu</h1>
-  </center>
+  <body>
+      <center>
+        <h1>Our Menu</h1>
+      </center>
 
-<div class="row">
-  <div class="col-lg-4 col-md-6">
-    <p>
-      <a id="p1"> HTML </a> 
-      Es el componente más básico de la Web. Define el significado y la estructura del contenido web. Además de HTML, generalmente se utilizan otras tecnologías para describir la apariencia/presentación de una página web (CSS) o la funcionalidad/comportamiento (JavaScript).
-    </p> 
-  </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <p>
+            <a id="p1"> HTML </a> 
+            Es el componente más básico de la Web. Define el significado y la estructura del contenido web. Además de HTML, generalmente se utilizan otras tecnologías para describir la apariencia/presentación de una página web (CSS) o la funcionalidad/comportamiento (JavaScript).
+          </p> 
+        </div>
 
-  <div class="col-lg-4 col-md-6">
-    <p>
-      <a id="p2"> CSS </a> 
-      Hojas de Estilo en Cascada o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML o XML (en-US) (incluyendo varios lenguajes basados en XML como SVG, MathML o XHTML). CSS describe cómo debe ser renderizado el elemento estructurado en la pantalla, en papel, en el habla o en otros medios.
-    </p>
-  </div>
+        <div class="col-lg-4 col-md-6">
+          <p>
+            <a id="p2"> CSS </a> 
+            Hojas de Estilo en Cascada o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML o XML (en-US) (incluyendo varios lenguajes basados en XML como SVG, MathML o XHTML). CSS describe cómo debe ser renderizado el elemento estructurado en la pantalla, en papel, en el habla o en otros medios.
+          </p>
+        </div>
 
-  <div class="col-lg-4 col-md-12">
-    <p>
-      <a id="p3"> JavaScript </a> 
-      Es un lenguaje de programación ligero, interpretado, o compilado justo-a-tiempo (just-in-time) con funciones de primera clase. Si bien es más conocido como un lenguaje de scripting (secuencias de comandos) para páginas web, y es usado en muchos entornos fuera del navegador, tal como Node.js, Apache CouchDB y Adobe Acrobat JavaScript es un lenguaje de programación basada en prototipos, multiparadigma, de un solo hilo, dinámico, con soporte para programación orientada a objetos, imperativa y declarativa.
-    </p>
-  </div>
-</div>
-
-</body>
+        <div class="col-lg-4 col-md-12">
+          <p>
+            <a id="p3"> JavaScript </a> 
+            Es un lenguaje de programación ligero, interpretado, o compilado justo-a-tiempo (just-in-time) con funciones de primera clase. Si bien es más conocido como un lenguaje de scripting (secuencias de comandos) para páginas web, y es usado en muchos entornos fuera del navegador, tal como Node.js, Apache CouchDB y Adobe Acrobat JavaScript es un lenguaje de programación basada en prototipos, multiparadigma, de un solo hilo, dinámico, con soporte para programación orientada a objetos, imperativa y declarativa.
+          </p>
+        </div>
+      </div>
+  </body>
 </html>
